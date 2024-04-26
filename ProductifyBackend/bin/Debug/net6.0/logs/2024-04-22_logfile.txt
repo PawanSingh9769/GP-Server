@@ -1,0 +1,81 @@
+2024-04-22 10:08:10.7480 ERROR Something went wrong in the GetAllProductsAsync service method System.TypeLoadException: Method 'GetEnumerator' in type 'Proxy_System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]_34774542_' from assembly 'AutoMapper.Proxies, Version=0.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005' does not have an implementation.
+   at System.Reflection.Emit.TypeBuilder.CreateTypeNoLock()
+   at System.Reflection.Emit.TypeBuilder.CreateTypeInfo()
+   at AutoMapper.Execution.ProxyGenerator.EmitProxy(TypeDescription typeDescription)
+   at AutoMapper.LockingConcurrentDictionary`2.<>c__DisplayClass2_1.<.ctor>b__1()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.Execution.ProxyGenerator.GetProxyType(Type interfaceType)
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32
+2024-04-22 10:15:34.3299 ERROR Something went wrong in the GetAllProductsAsync service method System.TypeLoadException: Method 'GetEnumerator' in type 'Proxy_System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]_515354_' from assembly 'AutoMapper.Proxies, Version=0.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005' does not have an implementation.
+   at System.Reflection.Emit.TypeBuilder.CreateTypeNoLock()
+   at System.Reflection.Emit.TypeBuilder.CreateTypeInfo()
+   at AutoMapper.Execution.ProxyGenerator.EmitProxy(TypeDescription typeDescription)
+   at AutoMapper.LockingConcurrentDictionary`2.<>c__DisplayClass2_1.<.ctor>b__1()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at AutoMapper.Execution.ProxyGenerator.GetProxyType(Type interfaceType)
+   at lambda_method33(Closure , AsyncStateMachineBox`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32
+2024-04-22 10:21:18.5540 ERROR Something went wrong in the GetAllProductsAsync service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObject_DTO_.ProductDto needs to have a constructor with 0 args or only optional args. (Parameter 'type')
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32
+2024-04-22 20:45:31.1969 ERROR Something went wrong in the GetAllProductsAsync service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObject_DTO_.ProductDto needs to have a constructor with 0 args or only optional args. (Parameter 'type')
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32
+2024-04-22 23:16:23.1486 ERROR Something went wrong in the GetAllProductsAsync service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObject_DTO_.ProductDto needs to have a constructor with 0 args or only optional args. (Parameter 'type')
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32
+2024-04-22 23:19:29.0881 ERROR Something went wrong in the GetAllProductsAsync service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObject_DTO_.ProductDto needs to have a constructor with 0 args or only optional args. (Parameter 'type')
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32
+2024-04-22 23:32:04.4013 ERROR Something went wrong in the GetAllProductsAsync service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObject_DTO_.ProductDto needs to have a constructor with 0 args or only optional args. (Parameter 'type')
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 32

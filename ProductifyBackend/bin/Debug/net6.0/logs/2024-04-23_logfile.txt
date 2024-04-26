@@ -1,0 +1,44 @@
+2024-04-23 01:03:05.2158 DEBUG Retrieved product: Smartphone, Description: Experience the latest in mobile tech with our Smartphone. Stunning display, powerful camera, and seamless performance., Price: 499.00
+2024-04-23 01:03:05.2449 DEBUG Retrieved product: Premium Laptop, Description: Experience unparalleled performance and sleek design with our Premium Laptop, featuring cutting-edge technology for lightning-fast processing, vibrant visuals, and long-lasting battery life.., Price: 99.00
+2024-04-23 01:03:05.3550 ERROR Something went wrong in the GetAllProductsAsync service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObject_DTO_.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObject_DTO_.ProductDto needs to have a constructor with 0 args or only optional args. (Parameter 'type')
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method33(Closure , List`1 , IEnumerable`1 , ResolutionContext )
+   at lambda_method34(Closure , Object , Object , ResolutionContext )
+   at Service.ProductService.GetAllProductsAsync(Guid sellerId, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 37
+2024-04-23 01:08:39.6203 DEBUG Retrieved product: Smartphone, Description: Experience the latest in mobile tech with our Smartphone. Stunning display, powerful camera, and seamless performance., Price: 499.00
+2024-04-23 01:08:39.6503 DEBUG Retrieved product: Premium Laptop, Description: Experience unparalleled performance and sleek design with our Premium Laptop, featuring cutting-edge technology for lightning-fast processing, vibrant visuals, and long-lasting battery life.., Price: 99.00
+2024-04-23 22:20:07.8769 DEBUG Retrieved product: Smartphone, Description: Experience the latest in mobile tech with our Smartphone. Stunning display, powerful camera, and seamless performance., Price: 499.00
+2024-04-23 22:20:07.8975 DEBUG Retrieved product: Premium Laptop, Description: Experience unparalleled performance and sleek design with our Premium Laptop, featuring cutting-edge technology for lightning-fast processing, vibrant visuals, and long-lasting battery life.., Price: 99.00
+2024-04-23 22:30:24.9603 DEBUG Retrieved product: Whole Milk, Description: Fresh and nutritious whole milk sourced from local farms., Price: 3.49
+2024-04-23 22:31:19.5787 ERROR Something went wrong in the CreateProductAsync service method System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Service.ProductService.CreateProductAsync(Guid sellerId, ProductForCreationDto productForCreation, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 59
+2024-04-23 22:31:24.3197 DEBUG Retrieved product: Whole Milk, Description: Fresh and nutritious whole milk sourced from local farms., Price: 3.49
+2024-04-23 22:32:08.2919 DEBUG Retrieved product: Whole Milk, Description: Fresh and nutritious whole milk sourced from local farms., Price: 3.49
+2024-04-23 22:42:35.2424 ERROR Something went wrong in the CreateProductAsync service method System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Service.ProductService.CreateProductAsync(Guid sellerId, ProductForCreationDto productForCreation, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 59
+2024-04-23 22:49:19.7310 ERROR Something went wrong in the CreateProductAsync service method System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Service.ProductService.CreateProductAsync(Guid sellerId, ProductForCreationDto productForCreation, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\ProductService.cs:line 59

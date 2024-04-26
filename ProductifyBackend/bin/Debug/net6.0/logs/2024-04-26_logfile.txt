@@ -1,0 +1,288 @@
+2024-04-26 13:29:42.7415 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 13:30:29.5232 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 13:36:23.3948 DEBUG Retrieved product: Smartphone, Description: Experience the latest in mobile tech with our Smartphone. Stunning display, powerful camera, and seamless performance., Price: 499.00
+2024-04-26 13:36:23.3948 DEBUG Retrieved product: Premium Laptop, Description: Experience unparalleled performance and sleek design with our Premium Laptop, featuring cutting-edge technology for lightning-fast processing, vibrant visuals, and long-lasting battery life.., Price: 99.00
+2024-04-26 13:41:23.1485 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 13:48:45.5886 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:17:52.2738 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerByIdAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method68(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method69(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:22:50.6120 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerByIdAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:24:30.1191 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerByIdAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:30:18.7494 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerByIdAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:34:53.1473 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:41:53.1802 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerByIdAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 14:49:04.6841 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=============================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 15:29:12.8683 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 15:29:41.3200 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=============================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 15:31:26.6003 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 15:32:40.6226 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=============================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Repository.SellerRepository+<GetSellerAsync>d__3, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 
+2024-04-26 15:39:34.9603 ERROR Something went wrong in CreateSellerservice method AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================================================================================================================================================================================================================================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+AsyncStateMachineBox`1 -> SellerDto (Destination member list)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Entities.Models.Seller, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> Shared.DataTransferObject_DTO_.SellerDto (Destination member list)
+
+Unmapped properties:
+Name
+Description
+ContactInformation
+No available constructor.
+
+   at lambda_method57(Closure , AsyncStateMachineBox`1 , SellerDto , ResolutionContext )
+   at lambda_method58(Closure , Object , Object , ResolutionContext )
+   at Service.SellerService.GetSellerAsync(Guid id, Boolean trackChanges) in C:\Users\pawan\Desktop\Group-Project\GP-Server\Service\SellerService.cs:line 77 

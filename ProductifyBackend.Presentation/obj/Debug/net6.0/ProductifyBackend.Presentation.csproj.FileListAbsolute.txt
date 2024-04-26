@@ -1,0 +1,17 @@
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\ProductifyBackend.Presentation.deps.json
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\ProductifyBackend.Presentation.dll
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\ProductifyBackend.Presentation.pdb
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\Service.Contract.dll
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\Shared.dll
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\Service.Contract.pdb
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\bin\Debug\net6.0\Shared.pdb
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.csproj.AssemblyReference.cache
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.AssemblyInfoInputs.cache
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.AssemblyInfo.cs
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.csproj.CopyComplete
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.dll
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\refint\ProductifyBackend.Presentation.dll
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ProductifyBackend.Presentation.pdb
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend.Presentation\obj\Debug\net6.0\ref\ProductifyBackend.Presentation.dll

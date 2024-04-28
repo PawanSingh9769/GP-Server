@@ -87,16 +87,25 @@ namespace Service
 
         }
 
-        public async Task UpdateSellerById(Guid id, SellerForCreationDto sellerForUpdateDto, bool trackChanges)
-        {
-            var sellerEntity = await _repositoryManager.Seller.GetSellerAsync(id, trackChanges);
-            //check and throw error
-
-            _mapper.Map(sellerForUpdateDto, sellerEntity);
-            await _repositoryManager.SaveAsync();
-
-        }
 
         
+        public async Task updateSellerById(Guid id, SellerForUpdateDto sellerForUpdate, bool trackChanges)
+        {
+            var seller = await _repositoryManager.Seller.GetSellerAsync(id, trackChanges);
+
+            _mapper.Map(sellerForUpdate, seller);
+            await _repositoryManager.SaveAsync();
+        }
+
+
+        public async Task DeleteSellerAsync(Guid sellerId , bool trackChanges)
+        {
+            var seller = await _repositoryManager.Seller.GetSellerAsync(sellerId, trackChanges);
+
+            //throw error
+
+            _repositoryManager.Seller.DeleteSeller(seller);
+            await _repositoryManager.SaveAsync();
+        }
     }
 }

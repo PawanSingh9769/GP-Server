@@ -20,6 +20,7 @@ namespace Contracts
         //Add Seller
         Task CreateSeller(Seller seller);
 
+        void DeleteSeller(Seller seller);
         //update and delete can be happen in service layer as they are connected method .
         //there we don't need to write repo for update and delete
     }

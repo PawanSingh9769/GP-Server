@@ -38,10 +38,10 @@ namespace Repository
             await RepositoryContext.SaveChangesAsync();
 
         }
-        public async Task Delete(T entity)
+        public void Delete(T entity)
         {
             RepositoryContext.Set<T>().Remove(entity);
-            await RepositoryContext.SaveChangesAsync();
+           
         }
 
     }

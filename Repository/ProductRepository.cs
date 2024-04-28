@@ -3,6 +3,7 @@ using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -33,6 +34,17 @@ namespace Repository
         {
             product.SellerId= sellerId;
             await Create(product);
+        }
+
+        public async Task<Product> getProductAsync(Guid sellerId, Guid productId, bool trackChanges)
+        {
+            var response = await FindByCondition(e => e.SellerId.Equals(sellerId) && e.Id.Equals(productId), trackChanges).SingleOrDefaultAsync();
+            return response;
+        }
+
+        public void DeleteProduct(Product product)
+        {
+            Delete(product);
         }
     }
 }

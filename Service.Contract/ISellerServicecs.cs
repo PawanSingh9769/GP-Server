@@ -15,6 +15,8 @@ namespace Service.Contract
         Task<SellerDto>  GetSellerAsync(Guid id , bool trackChanges);
 
        // Task UpdateSellerById(Guid id, SellerForUpdateDto sellerForUpdateDto, bool trackChanges);
-       Task UpdateSellerById(Guid id, SellerForCreationDto sellerForUpdateDto, bool trackChanges);
+
+        Task updateSellerById(Guid id , SellerForUpdateDto sellerForUpdate ,  bool trackChanges);
+        Task DeleteSellerAsync(Guid id, bool trackChanges);
     }
 }

@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Shared.DataTransferObject_DTO_
 {
-    public record SellerForUpdateDto(string Name, String Description, string ContactInformation);
+    public record SellerForUpdateDto(string Name, string Description, string ContactInformation);
 }

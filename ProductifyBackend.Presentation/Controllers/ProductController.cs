@@ -52,5 +52,34 @@ namespace ProductifyBackend.Presentation.Controllers
             return Ok(employeeToReturn);
 
         }
+
+        [HttpGet("{id:guid}", Name = "GetProductForSeller")]
+        public async Task<IActionResult> GetProductAsync(Guid sellerId, Guid Id)
+        {
+            var employee = await _service.ProductService.GetProductAsync(sellerId, Id, trackChanges: false)
+;
+            return Ok(employee);
+
+
+
+        }
+
+
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> UpdateProductForSeller(Guid sellerId , Guid Id, [FromBody] ProductforUpdateDto productForupdate)
+        {
+           await _service.ProductService.UpdateProductById(sellerId,Id , productForupdate , selltrackChanges: false , prodtrackChanges: true);
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> DeleteProduct(Guid sellerId, Guid Id)
+        {
+            await _service.ProductService.DeleteProductAsync(sellerId,Id,trackChanges:false);
+            return NoContent();
+
+        }
+
     }
 }

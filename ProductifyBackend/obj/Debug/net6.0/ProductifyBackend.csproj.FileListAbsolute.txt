@@ -95,3 +95,4 @@ C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend\bin\Debug\net6.
 C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pawan\Desktop\Group-Project\GP-Server\ProductifyBackend\obj\Debug\net6.0\ProductifyBackend.MvcApplicationPartsAssemblyInfo.cs

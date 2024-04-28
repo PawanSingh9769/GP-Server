@@ -207,15 +207,15 @@ namespace ProductifyBackend.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "352de9f3-ad05-443b-b3fe-2b74cf1cf282",
-                            ConcurrencyStamp = "2691fce1-9e46-495f-8dda-ee34b9ee318d",
+                            Id = "ee52894b-582b-454f-81d8-883c8a94a2c2",
+                            ConcurrencyStamp = "0259cb69-a8e2-4efd-aac5-0bd4f7f33de8",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "0d6cbc2b-6bf9-46ed-8395-f653ec93a320",
-                            ConcurrencyStamp = "a62b61b2-6610-48b9-8e49-3f45b8ce9ed9",
+                            Id = "205e5d58-0d68-473f-8bd4-930479aec490",
+                            ConcurrencyStamp = "e084729f-3447-46d5-8444-ef276d83d659",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });

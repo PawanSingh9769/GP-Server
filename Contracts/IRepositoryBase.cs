@@ -14,6 +14,6 @@ namespace Contracts
 
         Task Create(T entity);
         Task Update(T entity);
-        Task Delete(T entity);
+        void Delete(T entity);
     }
 }

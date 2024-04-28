@@ -14,7 +14,7 @@ namespace ProductifyBackend
             
             CreateMap<ProductForCreationDto, Product>();
 
-
+            CreateMap<ProductforUpdateDto, Product>();
 
 
             //Seller Mapping
@@ -22,7 +22,7 @@ namespace ProductifyBackend
              .ConstructUsing((src, ctx) => new SellerDto(src.Id, src.Name, src.Description, src.ContactInformation));
             CreateMap<SellerForCreationDto, Seller>();
 
-            CreateMap<SellerForUpdateDto , Seller>().ReverseMap();
+           CreateMap<SellerForUpdateDto, Seller>();
 
 
 

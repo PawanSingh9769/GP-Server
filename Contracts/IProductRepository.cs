@@ -10,7 +10,8 @@ namespace Contracts
     public interface IProductRepository
     {
         Task<IEnumerable<Product>> GetAllProductAsync(Guid sellerId , bool trackChanges);
-
+        Task<Product> getProductAsync(Guid sellerId,Guid productId, bool trackChanges);
         Task createProduct(Guid sellerId,Product product);
+        void DeleteProduct(Product product);
     }
 }

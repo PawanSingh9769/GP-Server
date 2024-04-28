@@ -7,6 +7,7 @@ using Shared.DataTransferObject_DTO_;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -67,6 +68,48 @@ namespace Service
                 _loggerManager.LogError($"Something went wrong in the {nameof(CreateProductAsync)} service method {ex}");
                 throw ;
             }
+        }
+
+        //public async Task UpdateProductById(Guid sellerId, Guid productId, ProductDto product, bool prodtrackChanges)
+        //{
+
+        //    var sellerEntity = await _repositoryManager.Seller.GetSellerAsync(sellerId,  prodtrackChanges);
+           
+
+        //    var productEntity = _repositoryManager.Product.getProductAsync(sellerId,productId, );
+
+
+        //    _mapper.Map(prForUpdate, employeeEntity);
+        //    _repository.SaveAsync();
+        //}
+
+        public async Task<ProductDto> GetProductAsync(Guid sellerId, Guid productId, bool trackchanges)
+        {
+            var seller = await _repositoryManager.Seller.GetSellerAsync(sellerId, trackchanges);
+
+            var productDb = await _repositoryManager.Product.getProductAsync(sellerId,productId, trackchanges);
+
+            var product = _mapper.Map<ProductDto>(productDb);
+            return product;
+        }
+
+        public async Task UpdateProductById(Guid sellerId, Guid productId, ProductforUpdateDto productForUpdate, bool selltrackChanges, bool prodtrackChanges)
+        {
+           // var sellerEntity = await _repositoryManager.Seller.GetSellerAsync(sellerId, selltrackChanges);
+            var productEntity = await _repositoryManager.Product.getProductAsync(sellerId, productId, prodtrackChanges);
+
+            _mapper.Map(productForUpdate, productEntity);
+            await _repositoryManager.SaveAsync();
+        }
+
+        //Delete
+        public async Task DeleteProductAsync(Guid sellerId, Guid productId, bool trackChanges)
+        {
+            var product = await _repositoryManager.Product.getProductAsync(sellerId, productId , trackChanges);
+            
+            _repositoryManager.Product.DeleteProduct(product);
+            await _repositoryManager.SaveAsync();
+
         }
     }
 }

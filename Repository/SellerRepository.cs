@@ -57,10 +57,10 @@ namespace Repository
 
         //}
 
-        //public Task DeleteSellerAsync(Guid id)
-        //{
-        //   await Delete(id);
-        //}
+        public void DeleteSeller(Seller seller)
+        {
+             Delete(seller);
+        }
 
 
 

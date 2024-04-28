@@ -41,7 +41,7 @@ namespace ProductifyBackend.Presentation.Controllers
 
         //Add Seller
         [HttpPost]
-        [Authorize]
+       // [Authorize]
         public async Task<IActionResult> CreateSeller([FromBody] SellerForCreationDto seller)
         {
             if (seller == null)
@@ -71,17 +71,21 @@ namespace ProductifyBackend.Presentation.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<IActionResult> UpdateSeller(Guid id , [FromBody] SellerForCreationDto sellerForUpdateDto)
+        public async Task<IActionResult> updateSellerById(Guid id,[FromBody] SellerForUpdateDto seller)
         {
-            if(sellerForUpdateDto == null)
-            {
-                return BadRequest("Something went wrong");
+            await _service.SellerService.updateSellerById(id , seller, trackChanges: true);
 
-            }
-
-             await _service.SellerService.UpdateSellerById(id, sellerForUpdateDto, trackChanges: false);
-            return Ok("updated successfully");
-
+            return NoContent();
+            
         }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> DeleteSeller(Guid Id)
+        {
+            await _service.SellerService.DeleteSellerAsync(Id, trackChanges: false);
+            return NoContent();
+        }
+
+        
     }
 }

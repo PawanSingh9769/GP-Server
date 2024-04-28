@@ -49,7 +49,6 @@ namespace Service
             _user = await _userManager.FindByNameAsync(userForAuth.UserName);
 
             var result = (_user != null && await _userManager.CheckPasswordAsync(_user, userForAuth.Password));
-
             if (!result)
                 _logger.LogWarn($"{nameof(ValidateUser)}: Authentication failed. Wrong user name or password.");
 

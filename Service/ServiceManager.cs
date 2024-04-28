@@ -17,7 +17,7 @@ namespace Service
         private readonly Lazy<IProductService> _productService;
         private readonly Lazy<ISellerService> _sellerService;
         private readonly Lazy<IAuthenticationService> _authenticationService;
-
+        private readonly Lazy<IUserService> _userService;
         public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper, UserManager<User> userManager,
  IConfiguration configuration)
         {
@@ -25,7 +25,7 @@ namespace Service
             _sellerService = new Lazy<ISellerService>(() => new SellerService(repositoryManager,logger, mapper));
             _authenticationService = new Lazy<IAuthenticationService>(() => new AuthenticationService(logger, userManager, configuration, mapper));
 
-
+            _userService = new Lazy<IUserService>(() => new UserService(logger , userManager, configuration,mapper));
 
 
         }
@@ -34,6 +34,7 @@ namespace Service
         public ISellerService SellerService => _sellerService.Value;
 
         public IAuthenticationService AuthenticationService => _authenticationService.Value;
+        public IUserService UserService => _userService.Value;
 
 
 

@@ -10,6 +10,7 @@ namespace Service.Contract
     {
         IProductService ProductService{ get; }
         ISellerService SellerService { get; }
+        IUserService UserService { get; }
         IAuthenticationService AuthenticationService { get; }
     }
 }

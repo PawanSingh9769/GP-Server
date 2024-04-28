@@ -29,7 +29,7 @@ namespace ProductifyBackend
             //user Mapping
             CreateMap<UserForRegistrationDto, User>();
 
-
+            CreateMap<User, UserDto>();
         }
     }
 }

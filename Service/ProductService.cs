@@ -99,6 +99,7 @@ namespace Service
             var productEntity = await _repositoryManager.Product.getProductAsync(sellerId, productId, prodtrackChanges);
 
             _mapper.Map(productForUpdate, productEntity);
+
             await _repositoryManager.SaveAsync();
         }
 

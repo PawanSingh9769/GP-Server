@@ -32,10 +32,10 @@ namespace Repository
         {
             await RepositoryContext.Set<T>().AddAsync(entity);
         }
-        public async Task Update(T entity)
+        public void Update(T entity)
         {
             RepositoryContext.Set<T>().Update(entity); // Attach the entity to the context if not already attached
-            await RepositoryContext.SaveChangesAsync();
+           
 
         }
         public void Delete(T entity)

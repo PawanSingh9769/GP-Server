@@ -94,7 +94,9 @@ namespace Service
             var seller = await _repositoryManager.Seller.GetSellerAsync(id, trackChanges);
 
             _mapper.Map(sellerForUpdate, seller);
+            _repositoryManager.Seller.UpdateSellerById(seller);
             await _repositoryManager.SaveAsync();
+            
         }
 
 

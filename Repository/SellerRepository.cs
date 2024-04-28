@@ -48,14 +48,14 @@ namespace Repository
         }
 
 
-        //public async Task UpdateSellerById(Guid id, Seller seller)
-        //{
-        //    var sellerExist = await RepositoryContext.Set<Seller>().FindAsync(id);
-        //    //throw exception
+        public void UpdateSellerById( Seller seller)
+        {
+            
+            //throw exception
 
-        //    Update(sellerExist);
+            Update(seller);
 
-        //}
+        }
 
         public void DeleteSeller(Seller seller)
         {
